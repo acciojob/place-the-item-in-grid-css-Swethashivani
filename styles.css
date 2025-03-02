@@ -1,15 +1,19 @@
 
 /* Your CSS Code here. */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
  .holder {
-            display: grid;
+            display:grid;
             width: 200px;
             height: 200px;
             grid-template-columns: 100px 100px;
             grid-template-rows: 100px 100px;
-            gap: 0;
+           
             gap: 5px; /* Optional spacing between items */
-            background-color: lightgray; /* To visualize the grid container */
+        /* To visualize the grid container */
         }
         .item {
             background-color: steelblue;
